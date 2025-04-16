@@ -40,10 +40,8 @@ nav li {
 nav li:hover {
   box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-
   background-color: rgb(254, 231, 177);
   border-radius: 5px;
-  color: rgb(0, 0, 0);
   border: none;
   outline: none;
 }
@@ -54,7 +52,7 @@ nav a {
 }
 nav a:hover {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(79, 50, 25);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 #Mainheadline {
