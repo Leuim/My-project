@@ -3,73 +3,6 @@
     <head>
         <title>General assembly</title>
         <link rel="stylesheet" href="style.css">
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                overflow-x: hidden;
-            }
-            .header {
-                color:white;
-                text-align: center;
-                background-color: rgb(81, 72, 51);
-                padding: 20px 0;
-                margin:0 auto;
-                width:100%;
-            }
-            nav ul{
-                list-style-type: none;
-                padding: 0;
-                margin: 0;
-                text-align: center;
-                background-color:rgb(236, 205, 155);
-            }
-            nav li {
-                color: rgb(254, 254, 254);
-                display:inline-block;
-                padding: 20px 20px 20px 20px;
-                font-size: 24px;
-                font-weight: bold;
-                text-transform: capitalize;
-            }
-            nav li:hover {
-                background-color: rgb(224, 192, 115);
-                border-radius:5px ;
-                color: white;
-                border:none;
-                outline:none;
-            }
-            body {
-                background-color:black;
-                color: white;
-            }
-            #Mainheadline {
-                text-align: center;
-                font-size: 20px;
-                margin-top: 20px;
-                color: rgb(236, 205, 155);
-            }
-            .programstable {
-                margin: 20px auto;
-                height:100px;
-                
-                overflow-y: auto;
-                text-align: center;
-            }
-            .programstable table {
-                width: 100%;
-                border-collapse: collapse;
-            }
-            .programs{
-                width: 200px;
-                height: 200px;
-                border-radius: 10px;
-                margin: 10px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            }
-           
-        </style>
     </head>
     <body>
         <div class="header">
@@ -88,25 +21,22 @@
             <h2 id="Mainheadline">Welcome to the General Assembly</h2>
             <p>We are a global community of individuals who are passionate about technology and education. Our mission is to empower individuals to pursue their passions and build successful careers in the tech industry.</p>
             <p>Whether you are looking to start a new career, advance in your current role, or simply learn new skills, we have a program for you. Our courses are designed to be hands-on and practical, giving you the skills and experience you need to succeed in the real world.</p>
-            <div class="programstable">
+            <div class="programs">
                 <h3>Our Programs</h3>
-                <table>
-                    <tr>
-                        <th>Software engineering</th>
-                        <th>Data analytics</th>
-                        <th>UI/UX</th>
-                        <th>Machine learning</th>
-                    </tr>
-                    <tr>
-                        <td><img class="programs" src=""> </td>
-                        <td><img class="programs" src=""> </td>
-                        <td><img class="programs" src="https://api.reliasoftware.com/uploads/ux_ui_design_322afd6292.webp"> </td>
-                        <td><img class="programs" src=""> </td>
-                    </tr>
-                </table>
+                <ul class="iconstitles">
+                    <li class="titles">Software Engineering</li>
+                    <li class="titles">Data Science</li>
+                    <li class="titles">UX Design</li>
+                    <li class="titles">Digital Marketing</li>
+                </ul>
             </div>
-        </div>
-        
-        
+                <div class="iconslist">
+                    <img class="icons" src="https://api.reliasoftware.com/uploads/ux_ui_design_322afd6292.webp"/>
+                    <img class="icons" src="https://api.reliasoftware.com/uploads/ux_ui_design_322afd6292.webp"/>
+                    <img class="icons" src="https://api.reliasoftware.com/uploads/ux_ui_design_322afd6292.webp"/>
+                    <img class="icons" src="https://api.reliasoftware.com/uploads/ux_ui_design_322afd6292.webp"/>
+                </div>
+            
+        </div>        
     </body>
 </html>
